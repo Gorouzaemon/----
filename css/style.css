@@ -1,0 +1,66 @@
+html{
+    font-size: 100%;
+}
+img{
+    width: 100%;
+    vertical-align: bottom;
+}
+.mainvisual{
+    height: 100vh;
+}
+.mainvisual .mainvisual-senten{
+    text-align: center;
+    transform: skewX(-15deg);
+    position: absolute;
+    top: 200px;
+}
+.mainvisual .mainvisual-senten .Thank{
+    font-size: 50px;
+}
+.mainvisual .mainvisual-senten .Trecle{
+    font-size: 70px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul{
+    list-style: none;
+}
+span{
+    display: block;
+}
+.section-title .ja{
+    font-size: 40px;
+    font-weight: 400;
+ }
+ .section-title .en{
+     font-size: 60px;
+     font-weight: 600;
+ }
+ #footer{
+    text-align: center;
+ }
+ #footer .section-title{
+    font-size: 60px;
+  
+ }
+ #footer .flex{
+    display: flex;
+    width: 84%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 50px;
+ }
+ #footer .flex .item{
+    width:calc(33%) ;
+ }
+ #footer .flex .item img{
+    height: 250px;
+    object-fit: contain;
+    border-radius:20% ;
+ }
+ #footer .flex .item a:hover{
+   opacity: 0.7;
+   
+ }
