@@ -38,6 +38,17 @@ span{
      font-size: 60px;
      font-weight: 600;
  }
+ .products .flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ }
+ .products .flex .left{
+    width: 46%;
+ }
+ .products .flex .right{
+    width: 46%;
+ }
  #footer{
     text-align: center;
  }
