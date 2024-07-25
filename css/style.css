@@ -5,6 +5,10 @@ img{
     width: 100%;
     vertical-align: bottom;
 }
+.contents{
+    width: 90%;
+    margin: 0 auto;
+}
 .mainvisual{
     height: 100vh;
 }
@@ -40,6 +44,7 @@ span{
  }
  .products .flex{
     width: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
  }
@@ -48,6 +53,14 @@ span{
  }
  .products .flex .right{
     width: 46%;
+ }
+ .products .flex .item{
+    text-align: center;
+    padding-bottom: 50px;
+ }
+ .products .flex .item:hover{
+  opacity: 0.7;
+  transition: all 0.7s;
  }
  #footer{
     text-align: center;
@@ -58,7 +71,7 @@ span{
  }
  #footer .flex{
     display: flex;
-    width: 84%;
+    width: 94%;
     justify-content: space-between;
     margin: 0 auto;
     padding-bottom: 50px;
@@ -73,5 +86,5 @@ span{
  }
  #footer .flex .item a:hover{
    opacity: 0.7;
-   
+   transition: all 0.7s;
  }
