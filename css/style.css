@@ -6,8 +6,8 @@ img{
     vertical-align: bottom;
 }
 .contents{
-    width: 90%;
     margin: 0 auto;
+    max-width: 1200px;
 }
 .mainvisual{
     height: 100vh;
@@ -57,19 +57,23 @@ span{
  .products .flex .item{
     text-align: center;
     padding-bottom: 50px;
+    position: relative;
  }
  .products .flex .item:hover{
   opacity: 0.7;
   transition: all 0.7s;
  }
  .products .flex .item.active{
-    animation: itemtransition 1s  ease-in-out infinite;
+    animation: itemtransition  1s  ease-in-out infinite;
  }
- @keyframes itemtransition {
+ @keyframes itemtransition{
     0%{ bottom: 0px;}
     50%{bottom: 20px;}
     100%{bottom: 0px;}
- }
+}
+.products .flex .item p{
+    font-size: 30px;
+}
  #footer{
     text-align: center;
  }
