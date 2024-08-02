@@ -101,8 +101,10 @@ span{
    transition: all 0.7s;
  }
 
-
-.mainvisual .mainvisual-senten .Thank {
-    font-size: 50px;
-    color: pink; 
+/* 練習　うてな　*/
+.Thank {
+    color: #FF99CC;
 }
+
+
+
