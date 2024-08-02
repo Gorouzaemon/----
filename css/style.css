@@ -100,3 +100,9 @@ span{
    opacity: 0.7;
    transition: all 0.7s;
  }
+
+
+.mainvisual .mainvisual-senten .Thank {
+    font-size: 50px;
+    color: pink; 
+}
